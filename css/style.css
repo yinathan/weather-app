@@ -1,0 +1,53 @@
+:root {
+    --dark-color: rgb(255, 140, 0);
+    --light-color: rgb(180, 243, 151);
+
+}
+
+/* aside {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    border: 4px solid var(--dark-color);
+    background-color: var(--light-color);
+    min-height: 100px;
+    justify-content: center;
+    flex-flow: column nowrap;
+} */
+
+.results {
+    display:flex;
+    flex-flow: row;
+    border: 2px black solid;
+    justify-content: center;
+}
+
+.sub {
+    /* border: 2px black solid; */
+
+    color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.left {
+    display:flex;
+    flex-flow: column nowrap;
+    align-items:flex-end;
+}
+
+.right {
+}
+
+.weather {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    border: 4px solid var(--dark-color);
+    background-color: var(--light-color);
+    min-height: 100px;
+    justify-content: center;
+    flex-flow: column nowrap;
+   
+}
